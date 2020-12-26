@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="src/style/style.css" rel="stylesheet" type="text/css">
+    <title>Fetch Examples</title>
+
+  </head>
+  <body>
+  <span id="divs">
+    <h1>Погода в доме</h1>
+
+    <form>
+
+      <input
+        id="userInput"
+        placeholder="Type city and press enter"
+        required
+        autofocus
+      />
+      <button>Get weather</button>
+    </form>
+
+    <span id="weather"></span>
+    </span>
+    <span id="left"></span>
+    <!-- Важно! чтобы script был в конце документа -->
+  <script type="module">
+    import {createForm, start} from "./src/index.js";
+    start();
+    createForm();
+  </script>
+  </body>
+</html>
