@@ -1,0 +1,22 @@
+* {
+  margin: 2px;
+  padding: 2px;
+}
+
+#divs {
+  height: 100%;
+  width: 49%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+#left {
+  height: 100%;
+  width: 49%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
